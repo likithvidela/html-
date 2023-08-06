@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+  }
+
+  h1, h2 {
+    font-family: 'Georgia', serif;
+  }
+
+  section {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  li:hover {
+    color: #e74c3c;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Main Heading</h1>
+  <h2>Subheading</h2>
+  
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+  
+  <section>
+    <h2>Experience</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor convallis lorem, eu vestibulum urna consequat et.</p>
+  </section>
+</div>
+
+</body>
+</html>
